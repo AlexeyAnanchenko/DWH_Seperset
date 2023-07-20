@@ -36,13 +36,7 @@ git clone https://github.com/apache/superset.git
 cd superset
 ```
 
-5. Добавляем последние изменения:
-
-```sh
-docker-compose -f docker-compose-non-dev.yml pull
-```
-
-6. Добавляем данные с моего репозитория в Superset:
+5. Добавляем данные с моего репозитория в Superset:
 
 ```sh
 cp -r ./../postgres_data ./postgres_data
@@ -52,12 +46,13 @@ cp -r ./../postgres_data ./postgres_data
 cp -f ./../docker-compose-non-dev.yml ./docker-compose-non-dev.yml
 ```
 
-7. Запускаем docker-compose:
+6. Запускаем docker-compose:
 
 ```sh
 docker-compose -f docker-compose-non-dev.yml up -d
 ```
 
+## Что дальше?
 
-Далее БД доступна в контейнере, либо по порту 5434 из любого сервиса для подключения к БД (например, DBeaver).
-Superset доступен по ссылке http://localhost:8088/
+- Далее БД доступна в контейнере, либо по порту 5434 из любого сервиса для подключения к БД (например, DBeaver).
+- Superset доступен по ссылке http://localhost:8088/
