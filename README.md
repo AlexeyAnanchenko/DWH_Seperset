@@ -1,4 +1,4 @@
-# DWH_Seperset
+# DWH_Superset
 
 Проектирование и реализация Data Warehouse Defined и его последующая интеграция с BI инструментом Superset в рамках курса "Инженер данных".
 
