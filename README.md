@@ -28,7 +28,7 @@ git clone git@github.com:AlexeyAnanchenko/DWH_Seperset.git
 2. Переходим в папку:
 
 ```sh
-cd ./DWH_Seperset
+cd ./DWH_Superset
 ```
 
 3. Скачиваем Superset:
